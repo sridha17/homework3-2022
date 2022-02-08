@@ -114,25 +114,26 @@ a:focus{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #DDDDDD;
+  background-color: #DDDDDD;
 }
 
 .about{
   grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
+  grid-row: 1 / span 1;
+  /* should this start at 1? for row */
 }
 .clients{
   grid-column: 2 / span 1;
-  grid-row: 4 / span 1;
+  grid-row: 2 / span 1;
  
  }
 .method{
   grid-column: 2 / span 1;
-  grid-row: 5 / span 1;
+  grid-row: 3 / span 1;
 }
  .contact{
   grid-column: 2 / span 1;
-  grid-row: 6 / span 1;
+  grid-row: 4 / span 1;
 }
 
 .container img{
@@ -140,26 +141,26 @@ a:focus{
 }
 .about-image{
   grid-column: 1/-1;
-  grid-row: 3 / span 1;
+  grid-row: 1 / span 1;
   max-height: 500px;
   overflow: hidden;
 }
 .clients-image{
   grid-column: 1 / -1;
-  grid-row: 4 / span 1;
+  grid-row: 2 / span 1;
   max-height: 500px;
   overflow: hidden;
  }
 
 .method-image{
   grid-column: 1 / -1;
-  grid-row: 5 / span 1;
+  grid-row: 3 / span 1;
   max-height: 500px;
   overflow: hidden;
 }
  .contact-image{
   grid-column: 1 / -1;
-  grid-row: 6 / span 1;
+  grid-row: 4 / span 1;
   max-height: 500px;
   overflow: hidden;
 }
@@ -239,7 +240,6 @@ a:focus{
 
 
 }
-/* probs w/ wavy underline and the larger screen view */
 
 /** Code for prefers reduced motion **/
 /* Make no changes below this line.
