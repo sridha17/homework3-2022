@@ -100,8 +100,9 @@ a:focus{
 .container{
   /* Requirement 5 code here*/
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
   row-gap: 30px;
+  grid-template-columns: 1fr 5fr 1fr;
+  /* docking points on row and column */
 }
 
 /* Requirements 6-10 here: */
@@ -114,13 +115,13 @@ a:focus{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #DDDDDD;
+  background-color: #707070;
+
 }
 
 .about{
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
-  /* should this start at 1? for row */
 }
 .clients{
   grid-column: 2 / span 1;
